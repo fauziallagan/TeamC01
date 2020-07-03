@@ -162,6 +162,9 @@ html, body {
     align-items: center;
     transition: 0.4s;
 }
+.container-contact{
+  background-color: rgba(5, 2, 12, 0.2);
+}
 
 .search-txt {
     border: none;
@@ -380,7 +383,7 @@ img{
     text-align: center;
 }
 .team{
-    letter-spacing: 20px;
-    word-spacing: 20px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
     text-align: center;    
 }
