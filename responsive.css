@@ -1,7 +1,7 @@
  /*untuk layar device berukuran kecil*/
- @media screen and (min-width: 450px) {
+ @media screen and (max-width: 450px) {
     .judul{
-        margin-left: 0;   
+        margin-left: 1%;   
        }
        .logo{
            display: none;
@@ -22,9 +22,6 @@
         font-size: 1em;
         word-spacing: 1px;
     }    
-}
-@media screen and (max-width: 270px) {
-
 }
 /*untuk layar device berukuran sedang*/
 @media screen and (max-width: 670px) {
