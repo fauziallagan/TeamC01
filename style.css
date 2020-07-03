@@ -194,7 +194,7 @@ html, body {
     float: right;
     justify-content: center;
     overflow: hidden;
-    position: relative;
+    position: sticky;
     cursor: pointer;
     transition: .3s linear;
     margin-top: 0px;
@@ -302,18 +302,11 @@ html, body {
     font-size:18px;
     border:1px solid #dee7ec;
   }
-  .nama:hover{
- 
-    transition: 0.4s;
-    width: 30%;
- 
-    margin-left: 15%;
-  }
   textarea{
     width:20%;
     margin-top:5px;
     margin-bottom:5%;
-    padding:20px 60px;
+    padding:20px 5px;
     margin-left: 5%;
     font-size:18px;
     border:1px solid #dee7ec;
@@ -331,7 +324,7 @@ html, body {
       width: 20%;
   }
   .tombol{
-    margin-left: -25%;
+    margin-left: -22%;
     width: 20%;
     padding:1%;
     background-color:#dee7ec;
