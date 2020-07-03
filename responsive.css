@@ -1,7 +1,7 @@
  /*untuk layar device berukuran kecil*/
  @media screen and (max-width: 450px) {
     .judul{
-        margin-left: 1%;   
+        margin-left: 0;   
        }
        .logo{
            display: none;
@@ -23,7 +23,9 @@
         word-spacing: 1px;
     }    
 }
+@media screen and (max-width: 270px) {
 
+}
 /*untuk layar device berukuran sedang*/
 @media screen and (max-width: 670px) {
   .hr:hover{

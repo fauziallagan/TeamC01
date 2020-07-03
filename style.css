@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: bisque;
  }
  a{
      text-decoration: none;
@@ -89,6 +90,19 @@ html, body {
     color: white;
     overflow: hidden;
 
+}
+.bottom-wrapper{
+  width: 100%;
+    /* text-align: center; */
+    padding: 100px 0 250px 0;
+    background-image: url('./asset/bottom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 0px;
+    align-items: center;
+    color: white;
+    overflow: hidden;
 }
 
 
@@ -277,20 +291,27 @@ html, body {
 
   /* Edit */
     .nama{
-    width:20%;
+    width:10%;
     margin-top:10px;
     margin-bottom:30px;
     padding:10px 60px;
-    margin-left: 35%;
+    margin-left: 5%;
     font-size:18px;
     border:1px solid #dee7ec;
+  }
+  .nama:hover{
+ 
+    transition: 0.4s;
+    width: 30%;
+ 
+    margin-left: 15%;
   }
   textarea{
     width:20%;
     margin-top:5px;
     margin-bottom:5%;
     padding:20px 60px;
-    margin-left: 35%;
+    margin-left: 5%;
     font-size:18px;
     border:1px solid #dee7ec;
   }
@@ -301,7 +322,7 @@ html, body {
   }
   .judul{
       margin-bottom: -1px;
-      margin-left: 35%;
+      margin-left: 5%;
   }
   hr{
       width: 20%;
@@ -328,7 +349,7 @@ html, body {
 
 main{
     width: 100%;
-    background-color: ghostwhite;
+    background-color: bisque;
 }
 .right{
     /* float: left; */
