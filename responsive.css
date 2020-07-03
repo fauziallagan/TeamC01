@@ -1,6 +1,27 @@
  /*untuk layar device berukuran kecil*/
- @media screen and (min-width: 450px) {
-    
+ @media screen and (max-width: 450px) {
+    .judul{
+        margin-left: 1%;   
+       }
+       .logo{
+           display: none;
+       }
+    .container h1{
+        text-align: center;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        padding-top: 20%;
+        margin-top: -5%;
+        font-size: 1px;
+  
+    }
+    .container h2{
+        margin-top: 40%;
+        padding-top:12%;
+        font-size: 1em;
+        word-spacing: 1px;
+    }    
 }
 
 /*untuk layar device berukuran sedang*/
@@ -189,4 +210,3 @@ hr{
   
    
 }
-/* Perkenalkan Nama Saya Ahmad Fauzi Allagan biasanya dipanggil fauzi, saya sedang menempuh pendidikan S1 Di universitas Gunadarma Region Depok jurusan Sistem Komputer, saya mulai menyukai dunia IT sejak kecil dan mulai terjun ke dunia Programming, Robotic dan networking sejak saya masih duduk di bangku SMK. Saya mempunyai ambisi untuk membangun startup dan mengajari anak-anak usia dini untuk belajar tentang programming. karena diusia itu pola pikir anak dapat berkembang dengan pesat.Disisi lain saya memiliki hobby traveling dan menghabiskan waktu senggang dengan membaca komik dan nonton serial anime :v. */
