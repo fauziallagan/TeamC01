@@ -345,7 +345,7 @@ html, body {
 
 main{
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(238, 232, 224);
 }
 .right{
     /* float: left; */
