@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: bisque;
+    background-color: rgb(250, 250, 250);
  }
  a{
      text-decoration: none;
