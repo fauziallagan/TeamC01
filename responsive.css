@@ -2,17 +2,15 @@
  @media screen and (max-width: 450px) {
     
   .nama:hover{
- 
     transition: 0.4s;
     width: 30%;
- 
     margin-left: 15%;
   }
     
     .judul{
         margin-left: 1%;   
        }
-       .logo{
+    .logo{
            display: none;
        }
     .container h1{
@@ -116,8 +114,6 @@ hr{
   .container-contact{
       background-color:rgba(5, 2, 12, 0.2)
   }
-
-
   .tombol{
     width: 30%;
     padding:1%;
